@@ -10,5 +10,11 @@
 .container {
   height: 1000px;
   background-color: red;
+  /* La dichiarazione che segue agirà sul file immagine che è un inline-block centrandola all'interno del div container. Questa proprietà mi tornerà utile quando dovrò centrare il cuoricino all'interno del box-product */
+  text-align: center;
 }
 /* Contenitore di tutto */
+
+.discount {
+  background-color: green;
+}

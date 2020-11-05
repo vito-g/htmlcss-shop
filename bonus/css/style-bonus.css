@@ -21,8 +21,11 @@
   display: inline-block;
 }
 
-.box-product.uno {
-  background-image: url(../img/pd1.jpg);
+.box-product {
   background-size: cover;
   background-position: center;
+}
+
+.box-product.uno {
+  background-image: url(../img/pd1.jpg);
 }

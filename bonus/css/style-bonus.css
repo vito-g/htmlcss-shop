@@ -16,10 +16,20 @@ body {
   text-align: center;
 }
 
+/* .header-container {
+  position: fixed;
+  top: 0;
+  z-index: 1;
+} */
+
 header {
   height: 128px;
   background-color: rgba(0,0,0,0.2);
   position: relative;
+  margin-bottom: 20px;
+}
+
+main {
   margin-bottom: 20px;
 }
 
@@ -84,6 +94,6 @@ header {
 }
 
 footer {
-  height: 100px;
-  background-color: black;
+  height: 128px;
+  background-color: rgba(0,0,0,0.2);
 }

@@ -33,6 +33,15 @@ header {
 .box-product {
   background-size: cover;
   background-position: center;
+  position: relative;
+}
+
+.discount {
+  background-color: green;
+  position: absolute;
+  top: 0;
+  right:0;
+  padding: 5px;
 }
 
 .box-product.uno {

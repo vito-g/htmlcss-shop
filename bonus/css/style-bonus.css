@@ -11,7 +11,6 @@ body {
 
 .container {
   width: 900px;
-  background-color: red;
   /* Stavolta utilizzando una dimensione per il container applicherò la dichiarazione che segue per centrarlo */
   margin: auto;
   text-align: center;
@@ -19,8 +18,9 @@ body {
 
 header {
   height: 128px;
-  background-color: black;
+  background-color: rgba(0,0,0,0.2);
   position: relative;
+  margin-bottom: 20px;
 }
 
 .logo {

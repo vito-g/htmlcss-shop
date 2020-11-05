@@ -75,7 +75,7 @@ main {
 
 
 .discount {
-  background-color: green;
+  background-color: rgb(2,33,68);
   position: absolute;
   top: 0;
   right:0;
@@ -92,7 +92,7 @@ main {
   width: 100%;
   padding: 15px;
   font-size: 25px;
-  color: red;
+  color: rgb(246,49,76);
   display: none;
 }
 
@@ -101,7 +101,7 @@ main {
 }
 
 .row :nth-child(2) .discount {
-  background-color: red;
+  background-color: rgb(246,49,76);
 }
 
 .box-product.uno {

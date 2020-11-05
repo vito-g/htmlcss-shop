@@ -26,15 +26,12 @@ header {
   width: calc( 33.33% - 5px);
   height: 372px;
   background-color: grey;
-  border: 1px solid black;
   display: inline-block;
-}
-
-.box-product {
   background-size: cover;
   background-position: center;
   position: relative;
 }
+
 
 .discount {
   background-color: green;

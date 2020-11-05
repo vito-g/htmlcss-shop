@@ -15,6 +15,14 @@
 }
 /* Contenitore di tutto */
 
+.box-product {
+  display: inline-block;
+  position: relative;
+}
+
 .discount {
   background-color: green;
+  position: absolute;
+  top: 0;
+  right:0;
 }

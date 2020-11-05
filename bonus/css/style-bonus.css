@@ -26,6 +26,9 @@ header {
   height: 158px;
   background-color: rgba(246,49,76,0.45);
   position: relative;
+}
+
+.header-container {
   margin-bottom: 20px;
 }
 
@@ -87,7 +90,7 @@ main {
   right:0;
   padding: 5px;
   font-family: 'Ubuntu', sans-serif;
-  font-weight: 400px;
+  font-weight: 400;
   font-style: italic;
   color: white;
 }

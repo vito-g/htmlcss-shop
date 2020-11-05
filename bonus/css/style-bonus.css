@@ -54,6 +54,10 @@ header {
   display: none;
 }
 
+.box-product:hover .desired {
+  display: block;
+}
+
 .box-product.uno {
   background-image: url(../img/pd1.jpg);
 }

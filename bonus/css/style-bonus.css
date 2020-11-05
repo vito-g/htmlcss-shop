@@ -23,4 +23,6 @@
 
 .box-product.uno {
   background-image: url(../img/pd1.jpg);
+  background-size: cover;
+  background-position: center;
 }

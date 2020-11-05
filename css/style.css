@@ -5,3 +5,9 @@
   padding: 0;
 }
 /* Foglio di reset per margini bordi e padding */
+
+/* Contenitore di tutto */
+.container {
+  height: 1000px;
+  background-color: red;
+}

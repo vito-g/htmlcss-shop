@@ -36,3 +36,8 @@
   color: red;
   display: none;
 }
+
+
+.box-product:hover .desired {
+  display: block;
+}

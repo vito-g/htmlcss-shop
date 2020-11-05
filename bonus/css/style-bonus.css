@@ -48,6 +48,10 @@ header {
   width: 339.53px;
 }
 
+.logotype:hover {
+  color: rgb(246,49,76);
+}
+
 .logotype .pay-off {
   font-size: 0.25em;
   position: absolute;

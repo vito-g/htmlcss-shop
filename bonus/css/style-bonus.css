@@ -8,4 +8,6 @@
   width: 1000px;
   height: 1000px;
   background-color: red;
+  /* Stavolta utilizzando una dimensione per il container applicherò la dichiarazione che segue per centrarlo */
+  margin: auto;
 }

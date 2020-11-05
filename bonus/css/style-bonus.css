@@ -29,3 +29,11 @@
 .box-product.uno {
   background-image: url(../img/pd1.jpg);
 }
+
+.box-product.due {
+  background-image: url(../img/pd2.jpg);
+}
+
+.box-product.tre {
+  background-image: url(../img/pd3.jpg);
+}

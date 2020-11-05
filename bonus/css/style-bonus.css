@@ -6,11 +6,15 @@
 
 .container {
   width: 900px;
-  height: 600px;
   background-color: red;
   /* Stavolta utilizzando una dimensione per il container applicherò la dichiarazione che segue per centrarlo */
   margin: auto;
   text-align: center;
+}
+
+header {
+  height: 300px;
+  background-color: black;
 }
 
 .box-product {

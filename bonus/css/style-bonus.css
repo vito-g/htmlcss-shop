@@ -23,7 +23,7 @@ header {
 }
 
 .box-product {
-  width: calc( 33.33% - 10px);
+  width: calc( 33.33% - 5px);
   height: 372px;
   background-color: grey;
   border: 1px solid black;

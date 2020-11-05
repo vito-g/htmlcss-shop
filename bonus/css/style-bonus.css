@@ -42,6 +42,8 @@ header {
   top: 0;
   right:0;
   padding: 5px;
+  font-family: 'Lobster', cursive;
+  color: white;
 }
 
 .desired {

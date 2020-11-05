@@ -57,6 +57,10 @@ header {
   display: block;
 }
 
+.row :nth-child(2) .discount {
+  background-color: red;
+}
+
 .box-product.uno {
   background-image: url(../img/pd1.jpg);
 }

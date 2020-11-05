@@ -41,3 +41,8 @@ header {
 .box-product.tre {
   background-image: url(../img/pd3.jpg);
 }
+
+footer {
+  height: 100px;
+  background-color: black;
+}

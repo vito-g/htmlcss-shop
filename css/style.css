@@ -45,7 +45,7 @@
   display: block;
 }
 
-/* La regola che segue andrà a selezionare la classe discount discendente dal secondo figlio (box-product) di ogni riga */
+/* La regola che segue andrà a selezionare la classe discount discendente(qui figlia) dal secondo figlio (box-product) di ogni riga */
 .row :nth-child(2)  .discount {
   background-color: red;
 }

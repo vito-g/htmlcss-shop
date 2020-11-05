@@ -8,7 +8,7 @@
 
 /* Contenitore di tutto */
 .container {
-  /* La dichiarazione che segue agirà sul file immagine che è un inline-block centrandola all'interno del div container. Questa proprietà mi tornerà utile quando dovrò centrare il cuoricino all'interno del box-product */
+  /* La dichiarazione che segue agirà sul file immagine che è un inline-block centrandola all'interno del div container. Questa proprietà mi tornerà utile quando dovrò centrare il cuoricino all'interno del box-product (al momento del cambiamento della sua proprietà di display) */
   text-align: center;
   margin-top: 20px;
 }

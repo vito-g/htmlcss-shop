@@ -13,8 +13,9 @@
 }
 
 .box-product {
-  width: 33.33%;
+  width: calc( 33.33% - 10px);
   height: 372px;
   background-color: grey;
   border: 1px solid black;
+  display: inline-block;
 }

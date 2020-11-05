@@ -44,6 +44,12 @@ header {
   padding: 5px;
 }
 
+.desired {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
 .box-product.uno {
   background-image: url(../img/pd1.jpg);
 }

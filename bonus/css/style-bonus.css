@@ -29,10 +29,6 @@ header {
   margin-bottom: 20px;
 }
 
-main {
-  margin-bottom: 20px;
-}
-
 .logo {
   position: absolute;
   left: 0;
@@ -40,6 +36,15 @@ main {
 
 .logotype {
   color: white;
+  font-size: 70px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate( -50%, -50%)
+}
+
+main {
+  margin-bottom: 20px;
 }
 
 .box-product {

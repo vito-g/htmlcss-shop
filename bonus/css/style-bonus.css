@@ -1,8 +1,10 @@
+/* Foglio di reset */
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
+/* 7Foglio di reset */
 
 body {
   background-image: url(../img/sfondo-007.jpg);

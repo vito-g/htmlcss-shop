@@ -18,8 +18,18 @@ body {
 }
 
 header {
-  height: 100px;
+  height: 128px;
   background-color: black;
+  position: relative;
+}
+
+.logo {
+  position: absolute;
+  left: 0;
+}
+
+.logotype {
+  color: white;
 }
 
 .box-product {

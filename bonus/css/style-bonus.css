@@ -5,7 +5,7 @@
 }
 
 body {
-  background-image: url(../img/sfondo.jpg);
+  background-image: url(../img/sfondo-007.jpg);
   background-attachment: fixed;
 }
 
@@ -23,13 +23,14 @@ body {
 } */
 
 header {
-  height: 128px;
-  background-color: rgba(0,0,0,0.2);
+  height: 158px;
+  background-color: rgba(246,49,76,0.45);
   position: relative;
   margin-bottom: 20px;
 }
 
 .logo {
+  height: 158px;
   position: absolute;
   left: 0;
 }
@@ -43,15 +44,23 @@ header {
   transform: translate( -50%, -50%);
   font-family: 'Ubuntu', sans-serif;
   font-weight: 700;
+  position: relative;
+  width: 339.53px;
 }
 
 .logotype .pay-off {
   font-size: 0.25em;
-
+  position: absolute;
+  left: 0;
+  font-style: italic;
+  padding-bottom: 5px;
 }
 
 main {
   margin-bottom: 20px;
+  padding-top: 3px;
+  border: 1px solid white;
+  background-color: rgba(246,49,76,0.45);
 }
 
 .box-product {
@@ -109,5 +118,5 @@ main {
 
 footer {
   height: 128px;
-  background-color: rgba(0,0,0,0.2);
+    background-color: rgba(246,49,76,0.45);
 }

@@ -15,6 +15,10 @@
 }
 /* Contenitore di tutto */
 
+.row {
+  margin-bottom: 25px;
+}
+
 .box-product {
   display: inline-block;
   position: relative;

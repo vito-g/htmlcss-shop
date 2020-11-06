@@ -37,6 +37,12 @@ header {
   left: 0;
 }
 
+.logotype-container {
+  height: 158px;
+  width: 900px;
+  position: relative;
+}
+
 .logotype {
   color: white;
   font-size: 70px;

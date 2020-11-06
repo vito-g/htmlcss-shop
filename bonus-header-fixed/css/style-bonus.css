@@ -1,0 +1,142 @@
+/* Foglio di reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+/* 7Foglio di reset */
+
+body {
+  background-image: url(../img/sfondo-007.jpg);
+  background-attachment: fixed;
+}
+
+.container {
+  width: 900px;
+  /* Stavolta utilizzando una dimensione per il container applicherò la dichiarazione che segue per centrarlo */
+  margin: auto;
+  text-align: center;
+}
+
+header {
+  height: 158px;
+  background-color: rgba(246,49,76,0.45);
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.logo {
+  height: 158px;
+  position: absolute;
+  left: 0;
+}
+
+.logotype {
+  color: white;
+  font-size: 70px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate( -50%, -50%);
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 700;
+  width: 339.53px;
+}
+
+.logotype:hover {
+  color: rgb(246,49,76);
+}
+
+.logotype .pay-off {
+  font-size: 0.25em;
+  text-align: left;
+  font-style: italic;
+  font-weight: 500;
+}
+
+main {
+  margin-bottom: 20px;
+  padding-top: 3px;
+  border: 1px solid white;
+  background-color: rgba(246,49,76,0.45);
+}
+
+.box-product {
+  width: calc( 33.33% - 5px);
+  height: 372px;
+  background-color: grey;
+  display: inline-block;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+
+.discount {
+  background-color: rgb(2,33,68);
+  position: absolute;
+  top: 0;
+  right:0;
+  width: 56.11px;
+  padding: 5px;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  color: white;
+}
+
+.desired {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 15px;
+  font-size: 25px;
+  color: rgb(246,49,76);
+  display: none;
+}
+
+.box-product:hover .desired {
+  display: block;
+}
+
+.box-product:hover {
+  border: 1px solid rgba(246,49,76,0);
+}
+
+.row :nth-child(2) .discount {
+  background-color: rgb(246,49,76);
+}
+
+.box-product.uno {
+  background-image: url(../img/pd1.jpg);
+}
+
+.box-product.due {
+  background-image: url(../img/pd2.jpg);
+}
+
+.box-product.tre {
+  background-image: url(../img/pd3.jpg);
+}
+
+footer {
+  background-color: rgba(246,49,76,0.45);
+}
+
+.footer-logotype {
+  font-size: 20px;
+  position: relative;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 500;
+  color: white;
+  padding: 10px;
+}
+
+.rec {
+  padding-top: 10px;
+  font-size: 0.5em;
+  display: inline-block;
+  height: 23.2px;
+  position: absolute;
+  top: 0;
+}

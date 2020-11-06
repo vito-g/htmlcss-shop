@@ -20,7 +20,7 @@ body {
 
 header {
   height: 158px;
-  background-color: rgba(246,49,76,0.45);
+  background-color: rgba(2,33,68,0.95);
   position: relative;
   margin-bottom: 20px;
 }
@@ -120,7 +120,7 @@ main {
 }
 
 footer {
-  background-color: rgba(246,49,76,0.45);
+  background-color: rgba(2,33,68,0.95);
 }
 
 .footer-logotype {

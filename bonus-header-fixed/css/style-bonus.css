@@ -25,6 +25,11 @@ header {
   margin-bottom: 20px;
 }
 
+.header-fantasma {
+  width: 900px;
+  height: 178px;
+}
+
 .logo {
   height: 158px;
   position: absolute;

@@ -21,7 +21,8 @@ body {
 header {
   height: 158px;
   background-color: rgba(2,33,68,0.95);
-  position: relative;
+  position: fixed;
+  z-index: 1;
   margin-bottom: 20px;
 }
 

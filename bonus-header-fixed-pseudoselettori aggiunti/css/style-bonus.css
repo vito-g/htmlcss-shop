@@ -119,15 +119,15 @@ main {
   background-color: rgb(246,49,76);
 }
 
-.box-product.uno {
+.box-product:first-child {
   background-image: url(../img/pd1.jpg);
 }
 
-.box-product.due {
+.box-product:nth-child(2) {
   background-image: url(../img/pd2.jpg);
 }
 
-.box-product.tre {
+.box-product:last-child {
   background-image: url(../img/pd3.jpg);
 }
 
